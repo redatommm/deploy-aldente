@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>Al Dente - Стоматология в Ростове-на-Дону</title>
+  <!-- Мета-описание страницы -->
+  <meta name="description" content="Al Dente - современная стоматология в Ростове-на-Дону. Мы предлагаем качественные услуги по лечению зубов, протезированию, имплантации и профессиональной гигиене.">
+
+  <!-- Ключевые слова -->
+  <meta name="keywords" content="стоматология Ростов-на-Дону, лечение зубов, протезирование, имплантация, гигиена полости рта, стоматологическая клиника, Al Dente">
+
+  <!-- Автор -->
+  <meta name="author" content="Al Dente Стоматология">
+
+  <!-- Иконка сайта (favicon) -->
+  <link rel="icon" href="/img/Ресурс 2.svg" type="image/x-icon">
+
+
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.9/dist/lenis.css">
+</head>
+
+<body>
+
+
+
+  <header class="header">
+     <!-- <div class="common-img" style="position: fixed; top: 0; left: 0; z-index: -100; opacity: 0.4; user-select: none; overflow: hidden;">
+        <img src="/img/beautiful-prism-light-concept 1.png"  alt="">
+      </div>  -->
+    <div class="container">
+      <div class="logo">
+        <svg class="logo-svg" width="140" height="82" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M32.3875 80.8694C31.0304 81.9123 30.1431 81.7037 29.2856 81.7335C24.67 81.9197 20.0843 81.4206 15.4165 81.7782C6.78938 82.4486 1.66678 77.793 0.302244 69.2864C-0.398665 64.8916 0.160571 60.5936 1.55493 56.452C3.94101 49.3532 10.8233 46.4258 17.7728 49.3681C21.4414 50.9249 21.4563 50.9249 21.4787 46.9696C21.501 42.9993 21.4339 39.0291 21.5308 35.0588C21.5756 33.1221 22.1274 32.8093 23.738 33.8968C25.9451 35.3866 28.5176 35.8186 31.3958 36.705C29.39 38.5002 29.6733 40.6231 29.6808 42.6865C29.7106 53.5991 29.733 64.5191 29.7926 75.4317C29.8001 77.51 29.5167 79.7521 32.3949 80.8545L32.3875 80.8694ZM21.4637 64.9065C21.4637 64.9065 21.4787 64.9065 21.4861 64.9065C21.4861 61.9344 21.501 58.9623 21.4861 55.9902C21.4861 54.8803 21.5458 53.6885 20.5913 52.884C18.4588 51.1037 16.1547 49.5245 13.202 50.1651C10.4878 50.7536 9.64522 53.0777 9.13072 55.4241C7.76618 61.6811 7.9004 67.9605 9.13072 74.225C9.3917 75.5584 9.95839 76.8098 10.7264 77.9644C11.6883 79.402 12.9857 80.1469 14.7454 80.2586C18.7719 80.5193 21.1506 78.6646 21.4265 74.5602C21.6427 71.3572 21.4712 68.1244 21.4712 64.9065H21.4637Z"
+            fill="#DBC2AB" />
+          <path
+            d="M94.4926 81.4653H81.1082C84.3816 79.3945 84.5233 76.7427 84.5531 74.0462C84.6128 67.603 84.6799 61.1522 83.9939 54.7313C83.4943 50.0609 79.3336 48.3104 75.5979 51.0218C74.3825 51.9007 73.8158 53.0181 73.8233 54.4929C73.8531 61.9269 73.9127 69.3609 73.8456 76.8023C73.8233 78.8508 74.7851 80.0128 76.7387 80.7055C74.5167 81.7856 66.8216 82.0091 62.728 81.078C65.8821 79.6552 65.6137 77.1003 65.6137 74.6719C65.6211 68.9735 65.5764 63.2677 65.5838 57.5693C65.5838 55.29 65.5838 53.0553 62.385 51.5953C66.1431 50.8728 69.0287 49.8001 71.7727 49.5543C75.1281 49.2489 78.2673 47.5431 81.7122 48.1614C83.0469 48.3998 84.4338 48.4295 85.7462 48.7424C90.3841 49.8299 92.2631 52.0646 92.3377 56.8244C92.4346 62.7686 92.375 68.7203 92.4123 74.6719C92.4272 77.0183 92.2855 79.4392 95.0742 80.8322C94.8804 81.0482 94.6865 81.2642 94.4852 81.4802L94.4926 81.4653Z"
+            fill="#DBC2AB" />
+          <path
+            d="M47.5838 67.804C45.8465 67.804 44.1091 67.7891 42.3717 67.804C41.216 67.8189 40.5971 68.385 40.3883 69.5694C39.3817 75.3124 43.9749 80.5341 49.7387 80.2809C53.0121 80.1393 55.0403 78.4037 56.211 75.5434C56.6733 74.4111 56.8522 73.1597 57.1356 71.953C57.2474 71.4763 57.2773 70.9102 57.8067 70.7537C58.3734 70.5824 58.6716 71.0666 58.9773 71.4688C62.3999 75.9605 61.6691 78.7166 56.3452 80.6458C51.2673 82.4857 46.1074 82.4336 41.0296 80.5937C37.018 79.1412 34.4828 76.2287 33.2525 72.1765C31.9998 68.0498 31.8879 63.8412 32.8051 59.6624C34.2442 53.085 39.9111 48.5114 46.6741 48.206C49.7164 48.0719 52.6393 48.6455 55.3684 49.8894C58.7014 51.409 61.0129 53.8075 61.4529 57.7107C62.0718 63.2974 59.1637 67.1485 53.5341 67.7518C51.573 67.9604 49.5672 67.7816 47.5838 67.7816C47.5838 67.7816 47.5838 67.7965 47.5838 67.804ZM40.3361 60.37C40.2914 67.141 39.8589 66.5153 45.5482 66.0609C52.7885 65.4874 55.9798 59.2378 52.2814 52.9882C50.9765 50.7758 49.0304 49.6958 46.4206 49.7851C43.8108 49.8671 42.3792 51.4462 41.477 53.6362C40.5151 55.9528 40.2616 58.4109 40.3287 60.37H40.3361Z"
+            fill="#DBC2AB" />
+          <path
+            d="M125.556 67.7594C124.318 67.7594 123.073 67.7445 121.835 67.7594C118.89 67.8041 118.45 68.3106 118.704 71.3125C119.159 76.7949 122.581 80.3703 127.256 80.2362C131.425 80.1171 133.654 78.1357 135.004 73.5322C135.302 72.5266 134.937 70.806 136.159 70.6719C137.628 70.5155 137.71 72.3479 138.255 73.3684C139.962 76.5714 139.649 77.9792 136.398 79.5807C130.112 82.6795 123.67 82.6422 117.399 79.5212C114.64 78.1506 112.806 75.7222 111.799 72.8172C110.166 68.1244 109.957 63.3422 111.329 58.5451C114.998 45.733 130.791 46.1129 136.883 51.8337C139.903 54.6717 140.156 58.1652 139.366 61.7928C138.65 65.0629 136.092 66.5229 132.975 67.2901C130.515 67.9009 128.047 67.7221 125.571 67.7445L125.556 67.7594ZM118.584 60.1168C118.48 64.4719 120.359 66.4136 124.222 65.9418C131.246 65.0852 134.265 58.3067 130.284 52.4147C128.8 50.2173 126.705 49.5022 124.169 49.7331C121.589 49.964 120.255 51.5953 119.472 53.8672C118.689 56.1317 118.599 58.4781 118.584 60.1168Z"
+            fill="#DBC2AB" />
+          <path
+            d="M93.4187 48.9435C97.818 47.2303 102.814 47.7815 103.746 42.2469C105.073 42.8503 104.887 43.8038 104.984 44.6306C105.237 46.761 106.487 47.9677 108.734 48.2508C109.077 48.2954 109.405 48.4444 109.778 48.5487C109.562 48.7871 109.435 49.085 109.264 49.1074C106.445 49.4997 105.033 51.1533 105.028 54.0683C105.028 59.2751 105.036 64.4819 105.058 69.6812C105.058 70.6719 105.081 71.67 105.185 72.6533C105.647 76.9736 106.811 77.6813 110.718 76.05C110.241 79.4988 108.488 81.2716 105.133 81.6813C101.531 82.1282 98.8619 80.6385 97.7584 77.4355C97.0276 75.3051 96.9158 73.063 96.9009 70.8283C96.8636 65.3757 96.9009 59.9231 96.7965 54.4706C96.7518 52.2136 97.4825 49.4649 93.4262 48.9435H93.4187Z"
+            fill="#DBC2AB" />
+          <path
+            d="M38.9419 42.8056C42.3048 41.5393 42.7522 39.0365 43.4158 36.7199C46.0777 27.4386 48.6651 18.1424 51.2973 8.85366C51.7074 7.42348 52.3114 5.98585 51.5955 4.52587C51.0139 3.3415 51.4837 2.95415 52.5723 2.82007C52.6916 2.80518 52.8184 2.80518 52.9452 2.79028C59.917 1.94855 60.5955 2.37314 62.5491 9.07713C65.2185 18.2318 67.8507 27.3939 70.535 36.5411C71.221 38.8726 71.6535 41.3904 74.7777 42.8056C70.9675 43.6399 67.7761 43.2451 64.6146 43.2377C63.8465 43.2377 63.3992 43.0589 63.5781 41.8969C64.3685 36.8987 61.7587 32.5709 60.506 27.9824C60.2525 27.0513 59.2608 26.8502 58.3511 26.8502C55.622 26.8502 52.893 26.8725 50.1639 26.8502C48.7099 26.8427 47.8673 27.5131 47.487 28.906C46.5028 32.489 45.4738 36.057 44.4671 39.625C44.4299 39.7442 44.4373 39.8857 44.3702 39.9825C43.55 41.152 45.8391 42.2172 44.8325 42.8801C43.3785 43.841 41.5293 43.4165 38.9493 42.7908L38.9419 42.8056ZM53.8772 6.25401C52.2144 12.1386 50.7082 17.4869 49.1871 22.8278C48.7248 24.4516 49.2691 25.1444 50.9692 25.0922C53.0794 25.0326 55.197 25.0103 57.2998 25.0997C59.2161 25.1816 59.7529 24.4144 59.2012 22.6341C58.1796 19.3193 57.2476 15.9673 56.2036 12.66C55.5848 10.701 55.3536 8.57806 53.8772 6.24656V6.25401Z"
+            fill="#D5CDCA" />
+          <path
+            d="M88.0801 43.3047C85.4927 43.3047 82.9053 43.3345 80.3179 43.2898C79.2218 43.2749 78.0735 43.4984 76.7239 42.6641C78.8341 41.3084 78.8341 39.26 78.8266 37.1445C78.7744 27.461 78.8042 17.7774 78.7595 8.09388C78.7371 3.68415 78.8788 3.38619 82.9202 1.18877C83.4645 0.890815 83.9418 0.473677 84.4786 0.175722C85.2094 -0.233966 85.7164 0.108686 85.8133 0.831227C85.9475 1.80703 85.9326 2.81263 85.9401 3.80333C86.0594 14.7234 86.1414 25.6509 86.3055 36.5709C86.3353 38.7386 85.8655 41.1446 88.5573 42.5077C88.4007 42.7759 88.2367 43.044 88.0801 43.3196V43.3047Z"
+            fill="#D5CDCA" />
+          <path
+            d="M131.939 20.7124C131.7 21.5839 131.037 21.5616 130.634 20.988C129.523 19.4238 128.718 20.0346 127.733 21.1221C119.912 29.7479 103.366 28.2954 96.5952 21.1221C95.8496 20.3325 95.089 18.7906 93.6425 20.3921C93.3367 20.7348 93.0087 21.3381 92.442 20.9657C91.7932 20.5411 92.0244 19.8483 92.2854 19.3046C92.9639 17.8967 94.0675 16.9358 95.5886 16.5112C96.5356 16.2431 97.3931 16.3101 97.4527 17.5615C97.5198 19.1854 98.7874 19.8707 99.8313 20.6826C105.886 25.3605 116.608 25.8968 123.066 21.7702C124.647 20.7571 126.742 19.9303 126.227 17.3083C126.13 16.8092 126.54 16.4218 127.107 16.3176C128.934 15.9824 132.051 18.7682 131.946 20.705L131.939 20.7124Z"
+            fill="#A79A91" />
+        </svg>
+      </div>
+
+      <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" id="menuCheckbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <li><a href="#price" class="smooth-scroll">Услуги</a></li>
+                <li><a href="#gallery" class="smooth-scroll">Галерея</a></li>
+                <li><a href="#feedback" class="smooth-scroll">Отзывы</a></li>
+                <li><a href="#faq" class="smooth-scroll">FAQ</a></li>
+              
+            </ul>
+        </div>
+    </nav>
+      <nav class="menu">
+        <ul class="menu-list">
+          <!-- <li class="menu-item navigation">
+            <a href="#main-content">Главная</a>
+          </li> -->
+          <li class="menu-item">
+            <a href="#price" class="smooth-scroll">Услуги</a>
+          </li>
+          <li class="menu-item">
+            <a href="#gallery" class="smooth-scroll">Галерея</a>
+          </li>
+          <li class="menu-item">
+            <a href="#feedback" class="smooth-scroll">Отзывы</a>
+          </li>
+          <li class="menu-item">
+            <a href="#faq" class="smooth-scroll">FAQ</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="adress">
+        <div class="point">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM7 9C7 6.24 9.24 4 12 4C14.76 4 17 6.24 17 9C17 11.88 14.12 16.19 12 18.88C9.92 16.21 7 11.85 7 9Z"
+              fill="white" />
+            <path
+              d="M12 11.5C13.3807 11.5 14.5 10.3807 14.5 9C14.5 7.61929 13.3807 6.5 12 6.5C10.6193 6.5 9.5 7.61929 9.5 9C9.5 10.3807 10.6193 11.5 12 11.5Z"
+              fill="white" />
+          </svg>
+          <p class="adress-title">ул. Береговая, 117Б ст 8</p>
+        </div>
+      </div>
+      <div class="elipse-header">
+        <a href="https://api.whatsapp.com/send/?phone=79515296969&text&type=phone_number&app_absent=0">
+          <svg class="elipse-svg" width="34" height="34" viewBox="0 0 34 34" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M26.9876 6.95584C25.6888 5.6439 24.1418 4.6037 22.4368 3.89591C20.7318 3.18812 18.9029 2.82691 17.0568 2.83334C9.3218 2.83334 3.01763 9.1375 3.01763 16.8725C3.01763 19.3517 3.6693 21.76 4.88763 23.885L2.9043 31.1667L10.3418 29.2117C12.396 30.3308 14.7051 30.9258 17.0568 30.9258C24.7918 30.9258 31.096 24.6217 31.096 16.8867C31.096 13.1325 29.6368 9.605 26.9876 6.95584ZM17.0568 28.5458C14.9601 28.5458 12.906 27.9792 11.1068 26.9167L10.6818 26.6617L6.2618 27.8233L7.43763 23.5167L7.1543 23.0775C5.98944 21.2174 5.37091 19.0673 5.3693 16.8725C5.3693 10.4408 10.611 5.19917 17.0426 5.19917C20.1593 5.19917 23.0918 6.4175 25.2876 8.6275C26.3749 9.70978 27.2365 10.9971 27.8226 12.4149C28.4087 13.8326 28.7075 15.3526 28.7018 16.8867C28.7301 23.3183 23.4885 28.5458 17.0568 28.5458ZM23.4601 19.8192C23.106 19.6492 21.3776 18.7992 21.066 18.6717C20.7401 18.5583 20.5135 18.5017 20.2726 18.8417C20.0318 19.1958 19.366 19.9892 19.1676 20.2158C18.9693 20.4567 18.7568 20.485 18.4026 20.3008C18.0485 20.1308 16.9151 19.7483 15.5835 18.5583C14.5351 17.6233 13.841 16.4758 13.6285 16.1217C13.4301 15.7675 13.6001 15.5833 13.7843 15.3992C13.9401 15.2433 14.1385 14.9883 14.3085 14.79C14.4785 14.5917 14.5493 14.4358 14.6626 14.2092C14.776 13.9683 14.7193 13.77 14.6343 13.6C14.5493 13.43 13.841 11.7017 13.5576 10.9933C13.2743 10.3133 12.9768 10.3983 12.7643 10.3842H12.0843C11.8435 10.3842 11.4751 10.4692 11.1493 10.8233C10.8376 11.1775 9.93096 12.0275 9.93096 13.7558C9.93096 15.4842 11.1918 17.1558 11.3618 17.3825C11.5318 17.6233 13.841 21.165 17.3543 22.6808C18.1901 23.0492 18.8418 23.2617 19.3518 23.4175C20.1876 23.6867 20.9526 23.6442 21.5618 23.5592C22.2418 23.46 23.6443 22.7092 23.9276 21.8875C24.2251 21.0658 24.2251 20.3717 24.126 20.2158C24.0268 20.06 23.8143 19.9892 23.4601 19.8192Z"
+              fill="white" />
+          </svg>
+        </a>
+      </div>
+      <div class="link">
+        <a href="https://taplink.cc/aldente" class="link-btn">Связаться с нами</a>
+      </div>
+
+      <!-- <div class="adress">
+                <div class="point">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM7 9C7 6.24 9.24 4 12 4C14.76 4 17 6.24 17 9C17 11.88 14.12 16.19 12 18.88C9.92 16.21 7 11.85 7 9Z" fill="black" />
+                    <path d="M12 11.5C13.3807 11.5 14.5 10.3807 14.5 9C14.5 7.61929 13.3807 6.5 12 6.5C10.6193 6.5 9.5 7.61929 9.5 9C9.5 10.3807 10.6193 11.5 12 11.5Z" fill="black" />
+                  </svg>
+                  <p class="adress-title">Moscow</p>
+                </div>
+              </div> -->
+    </div>
+  </header>
+
+  <div class="content-blur">
+
+
+  <section class="main-content" id="main-content">
+    <div class="container">
+      <div class="main-info">
+        <span class="main-small-info">
+          «Al Dente»
+        </span>
+        <div class="main-title">Клиника<br>
+          <span class="main-title al">«Al Dente»</span> <br>в Ростове-на-Дону
+        </div>
+        <p class="main-text">
+          Не откладывай своё <br> здоровье на потом
+        </p>
+
+        <div class="arrow">
+          <svg width="166" height="167" viewBox="0 0 166 167" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M164.314 156.567C165.24 155.965 165.503 154.727 164.901 153.8L155.094 138.707C154.492 137.781 153.253 137.518 152.327 138.119C151.401 138.721 151.138 139.96 151.739 140.886L160.457 154.303L147.041 163.02C146.114 163.622 145.851 164.861 146.453 165.787C147.055 166.713 148.294 166.976 149.22 166.375L164.314 156.567ZM0.291614 1.31947C10.1053 54.614 25.4889 88.3069 51.276 111.29C77.0048 134.222 112.817 146.234 162.809 156.847L163.639 152.934C113.715 142.336 78.8231 130.485 53.9374 108.304C29.1101 86.1762 13.9689 53.508 4.22548 0.595084L0.291614 1.31947Z"
+              fill="url(#paint0_linear_80_10)" />
+            <defs>
+              <linearGradient id="paint0_linear_80_10" x1="166.298" y1="160.485" x2="-1.50274" y2="12.2388"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="white" />
+                <stop offset="1" stop-color="white" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+
+
+        <div class="main-action">
+          <svg class="svg" style="position: absolute; " width="227" height="227" viewBox="0 0 227 227" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle cx="113.5" cy="113.5" r="113.5" fill="#AB8E67" />
+            <circle cx="113.5" cy="113.5" r="113.5" fill="url(#paint0_linear_9_48)" />
+            <circle cx="113.5" cy="113.5" r="111.5" stroke="url(#paint1_diamond_9_48)" stroke-opacity="0.5"
+              stroke-width="4" />
+            <defs>
+              <linearGradient id="paint0_linear_9_48" x1="44.2206" y1="113.5" x2="175.43" y2="113.5"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#9E835F" />
+                <stop offset="0.523495" stop-color="#C1AA8B" />
+                <stop offset="1" stop-color="#F4EADC" stop-opacity="0.14" />
+              </linearGradient>
+              <radialGradient id="paint1_diamond_9_48" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(134 144) rotate(56.618) scale(273.034)">
+                <stop stop-color="white" />
+                <stop offset="1" stop-color="white" />
+              </radialGradient>
+            </defs>
+          </svg>
+          <svg class="svg" style="z-index: -2; position: absolute; filter: blur(30px);" width="273" height="273" viewBox="0 0 273 273"
+            fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g opacity="0.7" filter="url(#filter0_f_9_47)">
+              <circle cx="136.5" cy="136.5" r="113.5" fill="#AB8E67" />
+              <circle cx="136.5" cy="136.5" r="113.5" fill="url(#paint0_linear_9_47)" />
+              <circle cx="136.5" cy="136.5" r="111.977" stroke="white" stroke-opacity="0.5" stroke-width="3.04698" />
+            </g>
+            <defs>
+              <filter id="filter0_f_9_47" x="0.147652" y="0.147652" width="272.705" height="272.705"
+                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                <feGaussianBlur stdDeviation="11.4262" result="effect1_foregroundBlur_9_47" />
+              </filter>
+              <linearGradient id="paint0_linear_9_47" x1="67.2206" y1="136.5" x2="198.43" y2="136.5"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#9E835F" />
+                <stop offset="0.523495" stop-color="#C1AA8B" />
+                <stop offset="1" stop-color="#F4EADC" stop-opacity="0.14" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <a href="https://n1137274.yclients.com/company/1047885/personal/select-services?o=" class="button" id="main-action-button">Записаться</a>
+          <!-- <a class="button" id="main-action-button">
+              Смотреть меню
+            </a> -->
+        </div>
+      </div>
+      <img src="img/image 100.png" alt="Big Burger" class="main-image">
+    </div>
+  </section>
+
+  <section class="price" id="price">
+    <div class="container">
+      <div class="main-title-price">Наши услуги</div>
+      <div class="btn-price">
+        <div class="btn-price-flex">
+          <button class="toggle-btn" data-target="block1">Терапия</button>
+          <button class="toggle-btn" data-target="block2">Ортопедия</button>
+          <button class="toggle-btn" data-target="block3">Хирургия</button>
+        </div>
+
+        <div id="block1" class="content-block animate__animated animate__fadeIn">
+          <div class="content-block-item">
+
+          </div>
+          <div class="content-block-item-bubl">
+
+          </div>
+          <nav class="content-item-price">
+            <span class="number">01.</span>
+            <span class="name">Консультация стоматолога-терапевта</span>
+            <span class="cost">1.000 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">02.</span>
+            <span class="name">Лечение кариеса зуба - 1 поверхность</span>
+            <span class="cost">5.200 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">03.</span>
+            <span class="name">Лечение кариеса зуба - 2 поверхности</span>
+            <span class="cost">6.700 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">04.</span>
+            <span class="name">Лечение кариеса зуба - 3 поверхности</span>
+            <span class="cost">7.400 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">05.</span>
+            <span class="name">Лечение пульпита 1к + пломба</span>
+            <span class="cost">9.400 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">06.</span>
+            <span class="name">Лечение пульпита 2к + пломба</span>
+            <span class="cost">11.400 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">07.</span>
+            <span class="name">Лечение пульпита 3к + пломба</span>
+            <span class="cost">14.400 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">08.</span>
+            <span class="name">Лечение периодонтита 1к + пломба</span>
+            <span class="cost">12.400 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">09.</span>
+            <span class="name">Лечение периодонтита 2к + пломба</span>
+            <span class="cost">13.400 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">10.</span>
+            <span class="name">Лечение периодонтита 3к + пломба</span>
+            <span class="cost">16.400 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">11.</span>
+            <span class="name">Реставрация зуба</span>
+            <span class="cost">от 5.000 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">12.</span>
+            <span class="name">Ультразвуковая чистка + Air Flow</span>
+            <span class="cost">5.000 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">13.</span>
+            <span class="name">Лечение некариозного дефета</span>
+            <span class="cost">5.000 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">14.</span>
+            <span class="name">Система отбеливания AMAZING WHITE</span>
+            <span class="cost">15.000 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">15.</span>
+            <span class="name">Снятие острой боли</span>
+            <span class="cost">5.000 ₽</span>
+          </nav>
+        </div>
+        <div id="block2" class="content-block animate__animated animate__fadeIn">
+          <div class="content-block-item" id="item1">
+
+          </div>
+          <div class="content-block-item-bubl">
+
+          </div>
+          <nav class="content-item-price">
+            <span class="number">01.</span>
+            <span class="name">Консультация стоматолога-ортопеда</span>
+            <span class="cost">1.500 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">02.</span>
+            <span class="name">Съемный протез 1, 2 зуба</span>
+            <span class="cost">12.000 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">03.</span>
+            <span class="name">Протез Flexi Nylon 1 зуб</span>
+            <span class="cost">15.000 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">04.</span>
+            <span class="name">Протез Flexi Nylon 2-х сторонний</span>
+            <span class="cost">30.000 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">05.</span>
+            <span class="name">Починка протеза</span>
+            <span class="cost">6.000 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">06.</span>
+            <span class="name">Снятие коронки</span>
+            <span class="cost">2.000 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">07.</span>
+            <span class="name">Временная коронка</span>
+            <span class="cost">3.500 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">08.</span>
+            <span class="name">Атачмен</span>
+            <span class="cost">8.000 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">09.</span>
+            <span class="name">Фиксация коронки</span>
+            <span class="cost">1.700 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">10.</span>
+            <span class="name">Перебазировка протеза</span>
+            <span class="cost">6.000 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">11.</span>
+            <span class="name">Каппа для отбеливания</span>
+            <span class="cost">4.000 ₽</span>
+          </nav>
+        </div>
+
+        <div id="block3" class="content-block animate__animated animate__fadeIn">
+          <div class="content-block-item" id="item3">
+
+          </div>
+          <div class="content-block-item-bubl">
+
+          </div>
+          <nav class="content-item-price">
+            <span class="number">01.</span>
+            <span class="name">Консультация стоматолога хирурга-имплантолога</span>
+            <span class="cost">1.500 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">02.</span>
+            <span class="name">Удаление 1/2 корневого зуба</span>
+            <span class="cost">4.200 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">03.</span>
+            <span class="name">Сложное удаление</span>
+            <span class="cost">7.200 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">04.</span>
+            <span class="name">Удаление ретенированного/дистопированного зуба</span>
+            <span class="cost">от 10.700 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">05.</span>
+            <span class="name">Установка имплантатов системой Dentium SuperLine</span>
+            <span class="cost">30.000 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">06.</span>
+            <span class="name">Установка формирователя десны</span>
+            <span class="cost">6.000 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">07.</span>
+            <span class="name">Коронка металлокерамическая Inline</span>
+            <span class="cost">10.000 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">08.</span>
+            <span class="name">Безметалловая коронка Emax (коронка)</span>
+            <span class="cost">23.000 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">09.</span>
+            <span class="name">Безметалловая коронка Emax (винир)</span>
+            <span class="cost">27.000 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">10.</span>
+            <span class="name">Безметалловая коронка Emax (вкладка)</span>
+            <span class="cost">12.000 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">11.</span>
+            <span class="name" id="name">Коронка металлокерамическая на основе оксида циркония</span>
+            <span class="cost">25.000 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">12.</span>
+            <span class="name">Коронка цирконевая эстетическая на импланте</span>
+            <span class="cost">35.000 ₽</span>
+          </nav>
+          <nav class="content-item-price">
+            <span class="number">13.</span>
+            <span class="name" >Коронка металлокерамическая на импланте</span>
+            <span class="cost">27.000 ₽</span>
+          </nav>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="worker" id="worker">
+    <div class="container">
+      <div class="main-title-worker">Сотрудники</div>
+
+      <div class="worker-table-line-horizontal">
+        <div class="worker-table-line-vert"></div>
+        <div class="worker-table-line-vert one"></div>
+      </div>
+
+      <div class="worker-table">
+        <div class="worker-table-img">
+          <div class="worker-table-img-text span">Карсюкова Татьяна Александровна</div>
+          <div class="worker-table-img-stage">стоматолог-терапевт</div>
+          <img src="/img/worker1.png" alt="" style="margin-bottom: 20px;">
+          <div class="flex">
+            <a href="" class="achives">Награды
+              <div class="line"></div>
+            </a>
+            <svg style="display: flex;" width="14" height="14" viewBox="0 0 14 14" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.4" d="M1.24265 12.5563L12.5564 1.24264M12.5564 1.24264V9.72792M12.5564 1.24264H4.07108"
+                stroke="#F8F8F8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+        </div>
+        <div class="worker-table-img">
+          <div class="worker-table-img-text">Ядоян Сергей Арамович</div>
+          <div class="worker-table-img-stage">главврач, стоматолог-хирург, имплантолог</div>
+          <img src="/img/worker2.png" alt="" style="margin-bottom: 20px;">
+          <div class="flex">
+            <a href="" class="achives">Награды
+              <div class="line"></div>
+            </a>
+            <svg style="display: flex;" width="14" height="14" viewBox="0 0 14 14" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.4" d="M1.24265 12.5563L12.5564 1.24264M12.5564 1.24264V9.72792M12.5564 1.24264H4.07108"
+                stroke="#F8F8F8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+        </div>
+        <div class="worker-table-img">
+          <div class="worker-table-img-text">Похилко Анастасия Дмитриевна</div>
+          <div class="worker-table-img-stage">стоматолог-терапевт</div>
+          <img src="/img/worker3.png" alt="" style="margin-bottom: 20px;">
+          <div class="flex">
+            <a href="" class="achives">Награды
+              <div class="line"></div>
+            </a>
+            <svg style="display: flex;" width="14" height="14" viewBox="0 0 14 14" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.4" d="M1.24265 12.5563L12.5564 1.24264M12.5564 1.24264V9.72792M12.5564 1.24264H4.07108"
+                stroke="#F8F8F8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <div class="container">
+
+      <div class="slider">
+        <div class="list">
+          <div class="item" id="pc">
+            <img src="https://i.postimg.cc/sDFCLddH/1.png" alt="">
+          </div>
+          <div class="item" id="pc">
+            <img src="https://i.postimg.cc/sgsdVY2p/2.png" alt="">
+          </div>
+          <div class="item" id="pc">
+            <img src="https://i.postimg.cc/c4QGy9dx/3.png" alt="">
+          </div>
+          <div class="item" id="pc">
+            <img src="https://i.postimg.cc/3x1MWkyz/4.png" alt="">
+          </div>
+          <div class="item" id="pc">
+            <img src="https://i.postimg.cc/nVD6BRj4/5.png" alt="">
+          </div>
+          <div class="item" id="pc">
+            <img src="https://i.postimg.cc/qvkSfpmw/6.png" alt="">
+          </div>
+          <div class="item" id="pc">
+            <img src="https://i.postimg.cc/NjpVBZSc/7.png" alt="">
+          </div>
+
+
+          <div class="item" id="mb">
+            <img src="/img/mb1.png" alt="">
+          </div>
+          <div class="item" id="mb">
+            <img src="/img/mb2.png" alt="">
+          </div>
+          <div class="item" id="mb">
+            <img src="/img/mb3.png" alt="">
+          </div>
+          <div class="item" id="mb">
+            <img src="/img/mb4.png" alt="">
+          </div>
+          <div class="item" id="mb">
+            <img src="/img/mb5.png" alt="">
+          </div>
+          <div class="item" id="mb">
+            <img src="/img/mb6.png" alt="">
+          </div>
+          <div class="item" id="mb">
+            <img src="/img/mb7.png" alt="">
+          </div>
+
+          <div class="item" id="md">
+            <img src="/img/md1.png" alt="">
+          </div>
+          <div class="item" id="md">
+            <img src="/img/md2.png" alt="">
+          </div>
+          <div class="item" id="md">
+            <img src="/img/md3.png" alt="">
+          </div>
+          <div class="item" id="md">
+            <img src="/img/md4.png" alt="">
+          </div>
+          <div class="item" id="md">
+            <img src="/img/md5.png" alt="">
+          </div>
+          <div class="item" id="md">
+            <img src="/img/md6.png" alt="">
+          </div>
+          <div class="item" id="md">
+            <img src="/img/md7.png" alt="">
+          </div>
+
+          <div class="item" id="sm">
+            <img src="/img/sm1.png" alt="">
+          </div>
+          <div class="item" id="sm">
+            <img src="/img/sm2.png" alt="">
+          </div>
+          <div class="item" id="sm">
+            <img src="/img/sm3.png" alt="">
+          </div>
+          <div class="item" id="sm">
+            <img src="/img/sm4.png" alt="">
+          </div>
+          <div class="item" id="sm">
+            <img src="/img/sm5.png" alt="">
+          </div>
+          <div class="item" id="sm">
+            <img src="/img/sm6.png" alt="">
+          </div>
+          <div class="item" id="sm">
+            <img src="/img/sm7.png" alt="">
+          </div>
+
+          <div class="item" id="sml">
+            <img src="/img/sml1.png" alt="">
+          </div>
+          <div class="item" id="sml">
+            <img src="/img/sml2.png" alt="">
+          </div>
+          <div class="item" id="sml">
+            <img src="/img/sml3.png" alt="">
+          </div>
+          <div class="item" id="sml">
+            <img src="/img/sml4.png" alt="">
+          </div>
+          <div class="item" id="sml">
+            <img src="/img/sml5.png" alt="">
+          </div>
+          <div class="item" id="sml">
+            <img src="/img/sml6.png" alt="">
+          </div>
+          <div class="item" id="sml">
+            <img src="/img/sml7.png" alt="">
+          </div>
+          
+
+          
+
+        </div>
+        <div class="buttons">
+          <button id="prev"><</button>
+          <button id="next">></button>
+        </div>
+        <ul class="dots">
+          <li class="active"></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="action">
+    <div class="container">
+      <div class="elipse left"></div>
+      <div class="elipse right"></div>
+
+      <div class="action-text">
+        <div class="main-action-title">
+          Акция
+        </div>
+        <div class="action-txt">
+          Приведи друга <br>получи 1000р
+          <span class='action-txt-span'>*примечание</span>
+        </div>
+
+
+        <div class="flex">
+          <a href="" class='action-btn'>Получить бонус</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="feedback" id="feedback">
+    <div class="container">
+
+
+      <div class="carousel-container">
+        <div class="carousel">
+          <div class="carousel">
+            <div class="testimonial">
+              <img src="https://picsum.photos/80?random=4" alt="Charlie Davis">
+              <h3>Charlie Davis</h3>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+              </p>
+            </div>
+            <div class="testimonial active">
+              <img src="https://picsum.photos/80?random=0" alt="John Doe">
+              <h3>John Doe</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore
+                et
+                dolore magna aliqua.</p>
+            </div>
+            <div class="testimonial">
+              <img src="https://picsum.photos/80?random=1" alt="Jane Smith">
+              <div class="star">
+                <img src="/img/star.svg" alt="">
+              </div>
+              <h3>Jane Smith</h3>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+            </div>
+          </div>
+          <!-- Testimonials will be dynamically added here -->
+        </div>
+        <div class="slider-button">
+          <button class="nav-button prev">&#8249;</button>
+          <button class="nav-button next">&#8250;</button>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <section class="section-faq" id="faq">
+    <div class="container">
+      <div class="container-faq">
+        <form id="form" class="form">
+          <div class="form-main-title">
+              Оставьте заявку*
+          </div>
+  
+          <div class="form-item">
+              <input type="text" id="name" class="form-input-text" name="name" autocomplete="off" required pattern="[A-Za-zА-Яа-яЁё\s]+">
+              <label for="name" class="form-label">
+                  <span class="form-label-name">Ваше Имя *</span>
+                  <div class="form-label-line">
+                    <div class="form-label-bg"></div>
+                </div>
+                <div class="form-label-sq"></div>
+              </label>
+              <div class="error" id="name-error">Пожалуйста, введите только буквы.</div>
+          </div>
+          <div class="form-item">
+              <input type="text" id="phone" class="form-input-text" name="phone" autocomplete="off" required pattern="\+?[0-9\s\-()]+">
+              <label for="phone" class="form-label">
+                  <span class="form-label-name">Номер Телефона *</span>
+                  <div class="form-label-line">
+                    <div class="form-label-bg"></div>
+                </div>
+                <div class="form-label-sq"></div>
+              </label>
+              <div class="error" id="phone-error">Пожалуйста, введите только цифры и символы +, -, ()</div>
+          </div>
+          <div class="form-item">
+              <input type="email" id="email" class="form-input-text" name="email" autocomplete="off" required>
+              <label for="email" class="form-label">
+                  <span class="form-label-name">E-mail (Необязательно) *</span>
+                  <div class="form-label-line">
+                    <div class="form-label-bg"></div>
+                </div>
+                <div class="form-label-sq"></div>
+              </label>
+              <div class="error" id="email-error">Пожалуйста, введите корректный email.</div>
+          </div>
+          <div class="form-item consent">
+            Нажимая кнопку «Отправить», вы подтверждаете свое <a href=""><span>согласие</span></a> на обработку персональных данных
+              <!-- <input type="checkbox" id="consent" name="consent" required>
+              <label for="consent">Я согласен с условиями*</label>
+              <div class="error" id="consent-error">Пожалуйста, согласитесь с условиями.</div> -->
+          </div>
+          <div class="success">
+            <div>
+              Ваша заявка отправлена!
+            </div>
+          </div>
+
+          <button class="form-btn" type="submit">
+            <span class="form-btn-txt">Отправить</span>
+            <div class="form-btn-bg"></div>
+          </button>
+
+
+        </form>
+        
+        <div class="question-faq">
+          <div class="main-title-faq">
+            FAQ
+          </div>
+          <div class="flex-faq">
+            <div class="faq">
+              <div class="question">
+                <h3>Как часто нужно посещать стоматолога?</h3>
+
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                  <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+
+                </svg>
+
+              </div>
+
+              <div class="answer">
+                <p>Рекомендуется посещение стоматолога как минимум дважды в год для профилактического осмотра и
+                  чистки
+                  зубов. <br> Однако, если у вас есть специфические проблемы со здоровьем полости рта, вам может
+                  потребоваться более частое посещение стоматолога. Всегда лучше проконсультироваться с врачом,
+                  чтобы
+                  определить оптимальное расписание посещений.</p>
+              </div>
+            </div>
+            <div class="faq">
+              <div class="question">
+                <h3>Какие услуги предоставляет ваша стоматологическая клиника?</h3>
+
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                  <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+
+                </svg>
+
+              </div>
+
+              <div class="answer">
+                <p>Наша стоматологическая клиника Al Dente предоставляет широкий спектр услуг, таких как
+                  профилактические осмотры, лечение кариеса, удаление зубных отложений, лечение зубного корня,
+                  протезирование, имплантация, ортодонтическое лечение и эстетическая стоматология.</p>
+              </div>
+            </div>
+            <div class="faq">
+              <div class="question">
+                <h3>Какой опыт и квалификация имеют ваши стоматологи?</h3>
+
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                  <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+
+                </svg>
+
+              </div>
+
+              <div class="answer">
+                <p>Наши стоматологи обладают обширным опытом и высокой квалификацией. Все наши специалисты имеют
+                  профессиональное образование, лицензию и постоянно повышают свои навыки через участие в семинарах
+                  и
+                  курсах.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="footer">
+    <div class="container">
+      <div class="footer-bg"></div>
+      <div class="footer-wrapp">
+        <!-- <h2 class="footer-wrapp-title">Наше местоположение</h2> -->
+        <iframe
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3A0468e026af547cb0c8e37ab2bfeb24404462fd19b7b3df64a67ab6fdcdcd14a8&amp;source=constructor"
+          width="500" height="400" frameborder="0"></iframe>
+        <div class="footer-img">
+          <img src="https://i.postimg.cc/CK80sr14/foot.jpg" alt="">
+        </div>
+      </div>
+      <div class="content-block-item-bubl" id="w">
+
+      </div>
+
+      <div class="footer-item">
+        <div class="footer-logo">
+          <img src="https://i.postimg.cc/vmkpkYJF/1.png" alt="">
+        </div>
+
+        <div class="footer-license">
+          <a class="license" href="">*ИП</a>
+          <a class="license" href="">Лицензия</a>
+          <a class="license" href="">Согласие на обработку персональных данных</a>
+        </div>
+
+        <div class="footer-contacts">
+          <div class="footer-contacts-items">
+            <div class="footer-contacts-item">
+              <img src="https://i.postimg.cc/1zwHRygZ/point.png" alt="icon">
+              <span>Мы находимся по адресу:<br>
+                <p>ул. Береговая, 117Б ст 8</p>
+              </span>
+            </div>
+            <div class="footer-contacts-item">
+              <img src="https://i.postimg.cc/fLd6N4s3/clock.png" alt="icon">
+              <span>Работаем без выходных <br>
+                <p>С 9:00 до 21:00, сб. вс. до 19:00</p>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <span>© ООО "ХАРВИ-ДЕНТ", Все права защищены 2024</span>
+        </div>
+      </div>
+
+
+    </div>
+
+  </section>
+</div>
+
+
+
+
+
+
+</body>
+<script src="script.js"></script>
+<script src="testimonials.js"></script>
+<script src="wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
+<script src="wow.js"></script>
+<script src="form.js"></script>
+<script src="lenis.js"></script>
+<script src="app.js"></script>
+<script src="https://unpkg.com/lenis@1.1.8/dist/lenis.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.0/bundled/lenis.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!-- Подключение Axios через CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</html>
